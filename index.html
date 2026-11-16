@@ -3,13 +3,42 @@
 <head>
     <meta charset="utf-8">
     <title>Fishing Game</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="main.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-    
+    <div class="top">
+        <h1>Fishing Game</h1>
+    </div>
+
+    <div class="main">
+
+        <img id="fih" src="Images/fih.png" />
+        <button id="fishingButton">Fish</button>
+
+        <div id="shopPanel">
+            <button id="closePanel">X</button>
+
+            <div id="shopContent">
+                <p>Welcome to the Prawn Shop!<p>
+            </div>
+
+            <div id="shopButtons">
+                <button id="buyRod">Fishing Rod</button>
+                <button id="buyBait">Bait</button>
+                <button id="buyHook">Hook</button>
+                <button id="buyBox">StorageBox</button>
+                <button id="sellFish">Sell Fish</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="bottom">
+        <button id="shop">PRAWN SHOP</button>
+    </div>
 </body>
 
 </html>
