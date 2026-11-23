@@ -32,13 +32,15 @@
 
 #fishing {
     display: none;
-    width: 75%;
-    max-width: 1250px;
+    width: 100%;
 }
 
 #shopPanel {
     display: none;
-    background-color: black;
+    background-image: url("Images/concept3.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     opacity: 97%;
     padding: 20px;
 
@@ -49,8 +51,7 @@
 
     width: 80%;
     max-width: 1280px;
-    height: 80%;
-    max-height: 800px;
+    aspect-ratio: 1920 / 1080;
     z-index: 1000;
 
     flex-direction: column;
@@ -72,23 +73,37 @@
     gap: 10px;
     margin-top: auto;
 }
+#buyRod  { position: absolute; left: 75%; top: 30%; }
+#buyBait { position: absolute; left: 75%; top: 60%; }
+#buyHook { position: absolute; left: 6%; top: 30%; }
+#buyBox { position: absolute; left: 8%; top: 60%; }
+#sellFish { position: absolute; left: 6%; top: 80%; }
+
 
 #shopButtons button {
-    padding: 10px;
+    padding: 13px;
     cursor: pointer;
-    width: 250px;
+    width: 20%;
+    height: 15%;
     border-radius: 10px;
+    background: transparent;
+    border: none;
+    color: transparent; 
+    cursor: pointer; }
+#shopButtons button:hover {
+    background: rgba(255, 255, 255, 0.15);
 }
 
 #shop {
     display: none;
+    position: absolute;
+    left: 86.5%;
+    top: 68%;
     padding: 10px;
     cursor: pointer;
     width: 125px;
     height: 200px;
     border-radius: 5px;
-    margin-left: auto;
-    transform: translate(-372px, -143px);
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-weight: bold;
@@ -99,4 +114,12 @@
     font-size: 24px;
     text-align: center;
     margin: auto;
+    position: relative;
+    top: 300px;
+}
+
+.scene {
+    position: relative;
+    width: 75%;
+    max-width: 1250px;
 }
