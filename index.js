@@ -1,6 +1,8 @@
 $(document).ready(function () {
     $("#fishingButton").click(function () {
-        $("#fih").show();
+        $("#fishing").show();
+        $("#shop").show();
+        $("#fishingButton").hide();
     });
     
     $("#shop").click(function () {

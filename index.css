@@ -3,7 +3,7 @@
     background-color: lightblue;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 75px;
 }
 
 .main {
@@ -12,7 +12,7 @@
     background-color: lightyellow;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 700px;
 }
 
 .bottom {
@@ -30,10 +30,10 @@
     border-radius: 10px;
 }
 
-#fih {
+#fishing {
     display: none;
-    width: 50%;
-    max-width: 500px;
+    width: 75%;
+    max-width: 1250px;
 }
 
 #shopPanel {
@@ -81,10 +81,17 @@
 }
 
 #shop {
+    display: none;
     padding: 10px;
     cursor: pointer;
-    width: 250px;
-    border-radius: 10px;
+    width: 125px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: auto;
+    transform: translate(-372px, -143px);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
 }
 
 #shopContent {
